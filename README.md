@@ -29,3 +29,15 @@ It provides REST APIs for creating, retrieving, and deleting journal entries, wi
 | Language | Java 17+ |
 
 
+---
+
+## 🧠 API Endpoints
+
+| Method | Endpoint | Description | Authentication |
+|--------|-----------|--------------|----------------|
+| `GET` | `/Journal` | Get all journal entries | ✅ Required |
+| `POST` | `/Journal` | Create a new journal entry | ✅ Required |
+| `GET` | `/Journal/id/{id}` | Get a single journal entry by ID | ✅ Required |
+| `DELETE` | `/Journal/id/{id}` | Delete a journal entry | ✅ Required |
+| `PUT` | `/Journal/id/{id}` | Update a journal entry | ✅ Required |
+
