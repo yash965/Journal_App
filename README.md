@@ -35,7 +35,7 @@ It provides REST APIs for creating, retrieving, and deleting journal entries, wi
 
 | Method | Endpoint | Description | Authentication |
 |--------|-----------|--------------|----------------|
-| `GET` | `/Journal` | Get all journal entries | ✅ Required |
+| `GET` | `/Journal` | Get all journal entries with the username | ✅ Required |
 | `POST` | `/Journal` | Create a new journal entry | ✅ Required |
 | `GET` | `/Journal/id/{id}` | Get a single journal entry by ID | ✅ Required |
 | `DELETE` | `/Journal/id/{id}` | Delete a journal entry | ✅ Required |
